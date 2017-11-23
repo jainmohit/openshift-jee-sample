@@ -16,7 +16,7 @@ public class HelloWorld extends HttpServlet {
       // Actual logic goes here.
       PrintWriter out = response.getWriter();
 
-      out.println("<h1>Hello World</h1>");
+      out.println("<h1>Hello OpenShift</h1>");
       out.println("<h2>" + new HelloWorldHelper().getMessage() + "</h2>");
   }
 

@@ -2,6 +2,6 @@ class HelloWorldHelper
 {
   public String getMessage()
   {
-    return "Hello World from another class";
+    return "Hello OpenShift from another class";
   }
 }
